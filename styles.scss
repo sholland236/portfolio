@@ -1,6 +1,8 @@
 // use or import? get use to work
 @import 'assets/styles/_variables.scss';
 
+// CREATED FOR MOBILE LAYOUT FIRST
+
 * {
     padding: 0;
     margin: 0;
@@ -16,6 +18,8 @@ nav {
     left: 0;
     top: 0;
     width: 100%;
+    // place nav on top - high number means on top
+    z-index: 9999;
 }
 
 nav > a {
@@ -24,20 +28,45 @@ nav > a {
     font-family: $secondary-font;
 }
 
+.home {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('assets/Images/leaves-horizontal.jpg');
+    // image took LHS, use background-position to center the image
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    &__header {
+        color: $secondary-color;
+        font-family: $primary-font;
+        font-size: 50px;
+        padding: 20px;
+        // to center text in header cell, after offset during wrap
+        text-align: center;
+    }
+    &--arrow {
+        color: $secondary-color;
+        font-size: 50px;
+        // position arrow
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        a {
+            text-decoration: none;
+            color: $secondary-color;
+        }
+    }
+}
 
-
-
-// #home {
-//     height: 100vh;
-//     width: 100vw;
-//     /* how to do background image? */
-//     /* background-image: Images/leaves-horizontal.jpg; */
-// }
-
-// #home > img {
-//     height: 100vh;
-//     width: 100vw;
-// }
+img {
+    width: 100px;
+    height: 100px;
+}
 
 // #about {
 //     width: 100vw;
