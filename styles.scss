@@ -1,0 +1,50 @@
+// use or import? get use to work
+@import 'assets/styles/_variables.scss';
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    height: 50px;
+    background-color: $primary-color;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+nav > a {
+    text-decoration: none;
+    color: $secondary-color;
+    font-family: $secondary-font;
+}
+
+
+
+
+// #home {
+//     height: 100vh;
+//     width: 100vw;
+//     /* how to do background image? */
+//     /* background-image: Images/leaves-horizontal.jpg; */
+// }
+
+// #home > img {
+//     height: 100vh;
+//     width: 100vw;
+// }
+
+// #about {
+//     width: 100vw;
+//     height: 300px;
+//     background-color: white;
+// }
+
+// #about > p {
+//     color: black;
+// }
