@@ -14,6 +14,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+    <!-- Down arrow chevron linked -->
+    <link rel="stylesheet" id="font-awesome-css" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css?ver=5.8" type="text/css" media="all">
+    <!-- Icons linked -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
 </head>
 <body>
     <!-- change skills to techstack? -->
@@ -23,15 +27,17 @@
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
     </nav>
-    <section id="home">
-        <!-- <img src="Images/leaves-horizontal.jpg" alt="leaves"> -->
-        <h1>Sarah Holland <br> Software Developer</h1>
+    <section class="home" id="home">
+        <h1 class="home__header">SARAH HOLLAND</h1>
+        <h2 class="home__header">SOFTWARE DEVELOPER</h2>
+        <!-- span holds a tag with link, a tag hold i tag with arrow -->
+        <span class="home--arrow"><a href="#about"><i class="fas fa-chevron-down"></i></a></span>
     </section>
-    <section id="about">
-        <h2>ABOUT</h2>
-        <p class="text">I have been fascinated by code since I started working with Matlab during my MSc Robotics course, and am now taking part in an intensive bootcamp with _Nology to become a Junior Software Developer. I have some certification in Java and am growing my skills each day as I become more confident in my coding practices. I'm excited for this next chapter and looking forward to seeing where it leads me.</p>
+    <section class="about" id="about">
+        <h2 class="about__header">ABOUT</h2>
+        <p class="about__text">I have been fascinated by code since I started working with Matlab during my MSc Robotics course, and am now taking part in an intensive bootcamp with _Nology to become a Junior Software Developer. I have some certification in Java and am growing my skills each day as I become more confident in my coding practices. I'm excited for this next chapter and looking forward to seeing where it leads me.</p>
     </section>
-    <section id="projects">
+    <section class="projects" id="projects">
         <h2>PROJECTS</h2>
         <div class="projects-container">
             <div class="project-window">
@@ -56,19 +62,19 @@
             </div>
         </div>
     </section>
-    <section id="skills">
+    <section class="skills" id="skills">
         <!-- Create in grid format? -->
         <!-- Update icons from devicon -->
         <h2>SKILLS</h2>
-        <img src="assets/Images/Icons/html-icon.png" alt="HTML Icon">
+        <i class="devicon-html5-plain-wordmark"></i>
         <p>HTML5</p>
-        <img src="assets/Images/Icons/css-icon.png" alt="CSS Icon">
+        <i class="devicon-css3-plain-wordmark"></i>
         <p>CSS3</p>
-        <img src="assets/Images/Icons/scss-icon.png" alt="SCSS Icon">
+        <i class="devicon-sass-original"></i>
         <p>SCSS</p>
-        <img src="assets/Images/Icons/GitHub-icon.png" alt="GitHub Icon">
+        <i class="devicon-github-original-wordmark colored"></i>
         <p>Git & GitHub</p>
-        <img src="assets/Images/Icons/java-icon.png" alt="Java Icon">
+        <i class="devicon-java-plain-wordmark"></i>
         <p>Java SE8</p>
     </section>
     <footer>
