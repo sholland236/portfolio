@@ -54,6 +54,28 @@ nav > a {
   color: white;
 }
 
+.about {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about__header {
+  color: black;
+  font-family: "Oleo Script", cursive;
+  font-size: 50px;
+}
+.about__text {
+  max-width: 70vw;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
 img {
   width: 100px;
   height: 100px;
