@@ -76,6 +76,36 @@ nav > a {
   text-align: center;
 }
 
+.projects {
+  padding-top: 60px;
+  background-color: black;
+}
+.projects__heading {
+  font-family: "Oleo Script", cursive;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+.projects--window {
+  background-color: white;
+  height: 70vh;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.projects--window img {
+  width: 90vw;
+  height: 30vh;
+}
+.projects--window h3 {
+  font-family: "Oleo Script", cursive;
+  color: black;
+  font-size: 30px;
+}
+
 img {
   width: 100px;
   height: 100px;
