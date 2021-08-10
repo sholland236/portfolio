@@ -6,6 +6,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 nav {
@@ -85,7 +86,47 @@ nav > a {
     }
 }
 
-img {
-    width: 100px;
-    height: 100px;
+.projects {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    background-color: $primary-color;
+    &__heading {
+        font-family: $primary-font;
+        font-size: 50px;
+        color: $secondary-color;
+        text-align: center;
+    }
+    &--window {
+        background-color: $secondary-color;
+        min-height: 50vh;
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            // width of 100% will span whole of container - space around edge due to padding in container
+            width: 100%;
+            height: 30vh;
+        }
+        h3 {
+            font-family: $primary-font;
+            color: $primary-color;
+            font-size: 30px;
+            padding: 10px;
+        }
+        p {
+            font-family: $secondary-font;
+            color: $primary-color;
+            font-size: 15px ;
+            text-align: center;
+            padding: 10px;
+            padding-top: 0;
+        }
+        // remove margin from last window so the lower black strip is not too large
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
 }
