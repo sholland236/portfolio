@@ -134,7 +134,7 @@ nav > a {
 
 .skills {
     padding-top: 60px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     background-color: $secondary-color;
     h2 {
         font-family: $primary-font;
@@ -144,6 +144,8 @@ nav > a {
         padding-bottom: 10px;
     }
     &__list {
+        font-family: $secondary-font;
+        color: $primary-color;
         display: grid;
         grid-template-columns: 1fr 1.5fr;
         gap: 10px;

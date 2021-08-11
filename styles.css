@@ -123,7 +123,7 @@ nav > a {
 
 .skills {
   padding-top: 60px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   background-color: white;
 }
 .skills h2 {
@@ -134,6 +134,8 @@ nav > a {
   padding-bottom: 10px;
 }
 .skills__list {
+  font-family: "Roboto", sans-serif;
+  color: black;
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   gap: 10px;
