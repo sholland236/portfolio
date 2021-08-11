@@ -159,3 +159,34 @@ footer a {
   text-align: center;
   padding: 40px;
 }
+
+@media screen and (min-width: 1200px) {
+  .home__header {
+    font-size: 80px;
+  }
+  .home--arrow {
+    font-size: 80px;
+  }
+
+  .projects {
+    padding: 80px;
+  }
+  .projects__heading {
+    font-size: 80px;
+  }
+  .projects .projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .projects--window {
+    justify-self: center;
+    max-width: 30vw;
+    padding: 30px;
+  }
+  .projects--window h3 {
+    font-size: 40px;
+  }
+  .projects--window p {
+    font-size: 20px;
+  }
+}

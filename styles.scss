@@ -171,3 +171,39 @@ footer {
         padding: 40px;
     }
 }
+
+
+// DESKTOP LAYOUT
+
+@media screen and (min-width: 1200px) {
+    .home {
+        &__header {
+            font-size: 80px;
+        }
+        &--arrow {
+            font-size: 80px;
+        }
+    }
+
+    .projects {
+        padding: 80px;
+        &__heading {
+            font-size: 80px;
+        }
+        .projects-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        &--window {
+            justify-self: center;
+            max-width: 30vw;
+            padding: 30px;
+            h3 {
+                font-size: 40px;
+            }
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+}
