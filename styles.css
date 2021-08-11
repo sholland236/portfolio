@@ -124,6 +124,7 @@ nav > a {
 .skills {
   padding-top: 60px;
   padding-bottom: 30px;
+  background-color: white;
 }
 .skills h2 {
   font-family: "Oleo Script", cursive;
@@ -138,4 +139,19 @@ nav > a {
   gap: 10px;
   text-align: center;
   padding: 10px;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 20vh;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  font-family: "Oleo Script", cursive;
+  font-size: 25px;
+  text-align: center;
+  padding: 40px;
 }
