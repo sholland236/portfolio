@@ -135,6 +135,7 @@ nav > a {
 .skills {
     padding-top: 60px;
     padding-bottom: 30px;
+    background-color: $secondary-color;
     h2 {
         font-family: $primary-font;
         color: $primary-color;
@@ -148,5 +149,20 @@ nav > a {
         gap: 10px;
         text-align: center;
         padding: 10px;
+    }
+}
+
+footer {
+    background-color: $primary-color;
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 20vh;
+    a {
+        color: $secondary-color;
+        text-decoration: none;
+        font-family: $primary-font;
+        font-size: 25px;
+        text-align: center;
+        padding: 40px;
     }
 }
