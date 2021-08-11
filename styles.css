@@ -87,6 +87,7 @@ nav > a {
   font-size: 50px;
   color: white;
   text-align: center;
+  padding-bottom: 10px;
 }
 .projects--window {
   background-color: white;
@@ -118,4 +119,23 @@ nav > a {
 }
 .projects--window:last-child {
   margin-bottom: 0;
+}
+
+.skills {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.skills h2 {
+  font-family: "Oleo Script", cursive;
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.skills__list {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 10px;
+  text-align: center;
+  padding: 10px;
 }
