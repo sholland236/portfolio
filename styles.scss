@@ -150,10 +150,19 @@ nav > a {
         font-family: $secondary-font;
         color: $primary-color;
         display: grid;
-        grid-template-columns: 1fr 1.5fr;
+        grid-template-columns: 1fr;
         gap: 20px;
         text-align: center;
         padding: 10px;
+        width: 180px;
+        margin: 0 auto;
+        &__cell {
+            display: flex;
+            justify-content: flex-start; 
+            span {
+                padding: 0 20px;
+            }
+        }
     }
 }
 
@@ -203,6 +212,18 @@ footer {
             }
             p {
                 font-size: 20px;
+            }
+        }
+    }
+
+    .skills {
+        &__list {
+            grid-template-columns: 1fr 1fr;
+            font-size: 40px;
+            width: 900px;
+            &__cell {
+                padding: 10px;
+                justify-self: left;
             }
         }
     }

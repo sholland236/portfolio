@@ -139,10 +139,19 @@ nav > a {
   font-family: "Roboto", sans-serif;
   color: black;
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
+  grid-template-columns: 1fr;
   gap: 20px;
   text-align: center;
   padding: 10px;
+  width: 180px;
+  margin: 0 auto;
+}
+.skills__list__cell {
+  display: flex;
+  justify-content: flex-start;
+}
+.skills__list__cell span {
+  padding: 0 20px;
 }
 
 footer {
@@ -188,5 +197,15 @@ footer a {
   }
   .projects--window p {
     font-size: 20px;
+  }
+
+  .skills__list {
+    grid-template-columns: 1fr 1fr;
+    font-size: 40px;
+    width: 900px;
+  }
+  .skills__list__cell {
+    padding: 10px;
+    justify-self: left;
   }
 }
