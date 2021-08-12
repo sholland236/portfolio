@@ -106,7 +106,7 @@ nav > a {
         border-radius: 2px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: center;
         img {
             // width of 100% will span whole of container - space around edge due to padding in container
@@ -219,6 +219,19 @@ footer {
             p {
                 font-size: 20px;
             }
+        }
+    }
+
+    .about {
+        height: 50vh;
+        padding-bottom: 60px;
+        &__header {
+            text-align: center;
+            font-size: 80px;
+        }
+        &__text {
+            text-align: center;
+            font-size: 30px;
         }
     }
 

@@ -97,7 +97,7 @@ nav > a {
   border-radius: 2px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 .projects--window img {
@@ -201,6 +201,19 @@ footer img {
   }
   .projects--window p {
     font-size: 20px;
+  }
+
+  .about {
+    height: 50vh;
+    padding-bottom: 60px;
+  }
+  .about__header {
+    text-align: center;
+    font-size: 80px;
+  }
+  .about__text {
+    text-align: center;
+    font-size: 30px;
   }
 
   .skills__list {
