@@ -1,5 +1,6 @@
 // use or import? get use to work
 @import 'assets/styles/_variables.scss';
+@import 'assets/styles/_typography.scss';
 
 // CREATED FOR MOBILE LAYOUT FIRST
 
@@ -44,14 +45,14 @@ nav > a {
     &__header {
         color: $secondary-color;
         font-family: $primary-font;
-        font-size: 50px;
+        font-size: $main-heading-mobile;
         padding: 20px;
         // to center text in header cell, after offset during wrap
         text-align: center;
     }
     &--arrow {
         color: $secondary-color;
-        font-size: 50px;
+        font-size: $main-heading-mobile;
         // position arrow
         position: absolute;
         bottom: 20px;
@@ -75,7 +76,7 @@ nav > a {
     &__header {
         color: $primary-color;
         font-family: $primary-font;
-        font-size: 50px;
+        font-size: $main-heading-mobile;
     }
     &__text {
         max-width: 70vw;
@@ -92,7 +93,7 @@ nav > a {
     background-color: $primary-color;
     &__heading {
         font-family: $primary-font;
-        font-size: 50px;
+        font-size: $main-heading-mobile;
         color: $secondary-color;
         text-align: center;
         padding-bottom: 10px;
@@ -142,7 +143,7 @@ nav > a {
     h2 {
         font-family: $primary-font;
         color: $primary-color;
-        font-size: 50px;
+        font-size: $main-heading-mobile;
         text-align: center;
         padding-bottom: 10px;
     }
@@ -199,10 +200,10 @@ footer {
 
     .home {
         &__header {
-            font-size: 80px;
+            font-size: $main-heading-desktop;
         }
         &--arrow {
-            font-size: 80px;
+            font-size: $main-heading-desktop;
         }
     }
 
@@ -211,7 +212,7 @@ footer {
         padding-bottom: 60px;
         &__header {
             text-align: center;
-            font-size: 80px;
+            font-size: $main-heading-desktop;
         }
         &__text {
             text-align: center;
@@ -222,7 +223,7 @@ footer {
     .projects {
         padding: 80px;
         &__heading {
-            font-size: 80px;
+            font-size: $main-heading-desktop;
         }
         .projects-container {
             display: grid;
@@ -252,7 +253,7 @@ footer {
             }
         }
         h2 {
-             font-size: 80px;
+             font-size: $main-heading-desktop;
              padding-bottom: 20px;
         }
     }
