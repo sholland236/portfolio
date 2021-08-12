@@ -195,7 +195,7 @@ footer img {
   }
   .about__text {
     text-align: center;
-    font-size: 30px;
+    font-size: 27px;
   }
 
   .projects {
@@ -204,7 +204,7 @@ footer img {
   .projects__heading {
     font-size: 80px;
   }
-  .projects .projects-container {
+  .projects__container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -240,5 +240,19 @@ footer img {
   }
   footer img {
     display: block;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .about {
+    height: 60vh;
+  }
+
+  .projects__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .projects__window {
+    max-width: 80vw;
   }
 }
