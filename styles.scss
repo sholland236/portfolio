@@ -188,7 +188,6 @@ footer {
 
 }
 
-
 // DESKTOP LAYOUT
 
 @media screen and (min-width: 1200px) {
@@ -216,7 +215,7 @@ footer {
         }
         &__text {
             text-align: center;
-            font-size: 30px;
+            font-size: 27px;
         }
     }
 
@@ -225,7 +224,7 @@ footer {
         &__heading {
             font-size: $main-heading-desktop;
         }
-        .projects-container {
+        &__container {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
         }
@@ -253,8 +252,8 @@ footer {
             }
         }
         &__heading {
-             font-size: $main-heading-desktop;
-             padding-bottom: 20px;
+            font-size: $main-heading-desktop;
+            padding-bottom: 20px;
         }
     }
 
@@ -266,6 +265,24 @@ footer {
         // make emblem visible for desktop
         img {
             display: block;
+        }
+    }
+}
+
+// TABLET LAYOUT
+
+@media screen and (min-width: 768px) and (max-width: 1200px - 1px) {
+    .about {
+        height: 60vh;
+    }
+    .projects{
+        &__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__window {
+            max-width: 80vw;
         }
     }
 }
