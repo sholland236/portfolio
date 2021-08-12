@@ -97,7 +97,7 @@ nav > a {
   border-radius: 2px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 .projects--window img {
@@ -139,17 +139,26 @@ nav > a {
   font-family: "Roboto", sans-serif;
   color: black;
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
+  grid-template-columns: 1fr;
   gap: 20px;
   text-align: center;
   padding: 10px;
+  width: 180px;
+  margin: 0 auto;
+}
+.skills__list__cell {
+  display: flex;
+  justify-content: flex-start;
+}
+.skills__list__cell span {
+  padding: 0 20px;
 }
 
 footer {
   background-color: black;
   display: flex;
   justify-content: space-evenly;
-  min-height: 20vh;
+  min-height: 10vh;
 }
 footer a {
   color: white;
@@ -158,4 +167,78 @@ footer a {
   font-size: 25px;
   text-align: center;
   padding: 40px;
+  max-width: 250px;
+}
+footer img {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  nav a {
+    font-size: 25px;
+  }
+
+  .home__header {
+    font-size: 80px;
+  }
+  .home--arrow {
+    font-size: 80px;
+  }
+
+  .about {
+    height: 60vh;
+    padding-bottom: 60px;
+  }
+  .about__header {
+    text-align: center;
+    font-size: 80px;
+  }
+  .about__text {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .projects {
+    padding: 80px;
+  }
+  .projects__heading {
+    font-size: 80px;
+  }
+  .projects .projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .projects--window {
+    justify-self: center;
+    max-width: 30vw;
+    padding: 30px;
+  }
+  .projects--window h3 {
+    font-size: 40px;
+  }
+  .projects--window p {
+    font-size: 20px;
+  }
+
+  .skills__list {
+    grid-template-columns: 1fr 1fr;
+    font-size: 40px;
+    width: 900px;
+  }
+  .skills__list__cell {
+    padding: 10px;
+    justify-self: left;
+  }
+  .skills h2 {
+    font-size: 80px;
+    padding-bottom: 20px;
+  }
+
+  footer a {
+    font-size: 50px;
+    max-width: 290px;
+  }
+  footer img {
+    display: block;
+  }
 }
