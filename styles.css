@@ -174,11 +174,28 @@ footer img {
 }
 
 @media screen and (min-width: 1200px) {
+  nav a {
+    font-size: 25px;
+  }
+
   .home__header {
     font-size: 80px;
   }
   .home--arrow {
     font-size: 80px;
+  }
+
+  .about {
+    height: 60vh;
+    padding-bottom: 60px;
+  }
+  .about__header {
+    text-align: center;
+    font-size: 80px;
+  }
+  .about__text {
+    text-align: center;
+    font-size: 30px;
   }
 
   .projects {
@@ -203,19 +220,6 @@ footer img {
     font-size: 20px;
   }
 
-  .about {
-    height: 50vh;
-    padding-bottom: 60px;
-  }
-  .about__header {
-    text-align: center;
-    font-size: 80px;
-  }
-  .about__text {
-    text-align: center;
-    font-size: 30px;
-  }
-
   .skills__list {
     grid-template-columns: 1fr 1fr;
     font-size: 40px;
@@ -224,6 +228,10 @@ footer img {
   .skills__list__cell {
     padding: 10px;
     justify-self: left;
+  }
+  .skills h2 {
+    font-size: 80px;
+    padding-bottom: 20px;
   }
 
   footer a {

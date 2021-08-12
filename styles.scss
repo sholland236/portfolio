@@ -191,12 +191,31 @@ footer {
 // DESKTOP LAYOUT
 
 @media screen and (min-width: 1200px) {
+    nav {
+        a {
+            font-size: 25px;
+        }
+    }
+
     .home {
         &__header {
             font-size: 80px;
         }
         &--arrow {
             font-size: 80px;
+        }
+    }
+
+    .about {
+        height: 60vh;
+        padding-bottom: 60px;
+        &__header {
+            text-align: center;
+            font-size: 80px;
+        }
+        &__text {
+            text-align: center;
+            font-size: 30px;
         }
     }
 
@@ -222,19 +241,6 @@ footer {
         }
     }
 
-    .about {
-        height: 50vh;
-        padding-bottom: 60px;
-        &__header {
-            text-align: center;
-            font-size: 80px;
-        }
-        &__text {
-            text-align: center;
-            font-size: 30px;
-        }
-    }
-
     .skills {
         &__list {
             grid-template-columns: 1fr 1fr;
@@ -244,6 +250,10 @@ footer {
                 padding: 10px;
                 justify-self: left;
             }
+        }
+        h2 {
+             font-size: 80px;
+             padding-bottom: 20px;
         }
     }
 
