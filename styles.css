@@ -119,6 +119,9 @@ nav > a {
   padding: 10px;
   padding-top: 0;
 }
+.projects__window a {
+  text-decoration: none;
+}
 .projects__window:last-child {
   margin-bottom: 0;
 }
