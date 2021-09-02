@@ -129,6 +129,9 @@ nav > a {
             padding: 10px;
             padding-top: 0;
         }
+        a {
+            text-decoration: none;
+        }
         // remove margin from last window so the lower black strip is not too large
         &:last-child {
             margin-bottom: 0;
