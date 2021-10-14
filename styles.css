@@ -222,6 +222,13 @@ footer img {
   .projects__window p {
     font-size: 20px;
   }
+  .projects__window:last-child {
+    margin-bottom: 20px;
+  }
+  .projects__window img {
+    min-width: 20vw;
+    min-height: 200px;
+  }
 
   .skills__list {
     grid-template-columns: 1fr 1fr;
