@@ -125,6 +125,21 @@ nav > a {
 .projects__window:last-child {
   margin-bottom: 0;
 }
+.projects__window--button {
+  background: #e7e7e7;
+  border: 1px solid black;
+  border-radius: 7px;
+  color: black;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  padding: 13px 20px 11px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: bottom;
+}
 
 .skills {
   padding-top: 60px;

@@ -136,6 +136,21 @@ nav > a {
         &:last-child {
             margin-bottom: 0;
         }
+        &--button {
+            background: #e7e7e7;
+            border: 1px solid $primary-color;
+            border-radius: 7px;
+            color: $primary-color;
+            cursor: pointer;
+            font-family: $secondary-font;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 1;
+            padding: 13px 20px 11px;
+            text-align: center;
+            text-decoration: none;
+            vertical-align: bottom;
+    }
     }
 }
 
