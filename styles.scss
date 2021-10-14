@@ -241,6 +241,13 @@ footer {
             p {
                 font-size: 20px;
             }
+            &:last-child {
+                margin-bottom: 20px;
+            }
+            img {
+                min-width: 20vw;
+                min-height: 200px;
+            }
         }
     }
 
