@@ -1,6 +1,6 @@
 # Portfolio
 
-This portfolio project has been created in order to display my current skillset and some of the projects I have been working on recently. The project was coded with a mobile-first approach.
+This portfolio project has been created in order to display my current skillset and some of the projects I have been working on recently. The project was coded with a mobile-first approach and follows BEM best practices.
 
 The technologies used to create this are as follows:
 - HTML
